@@ -1,7 +1,7 @@
 # PearltreesAssets
 
 ## Overview
-This is the library containing all the assets and fonts used in Pearltrees.
+This library contains all the assets and fonts used in Pearltrees.
 
 ## Usage
 
