@@ -1,8 +1,7 @@
 # Assets Box
 
 ## Presentation
-Pearltrees is a place to organize all your interests. With this project we are 
-open-sourcing the assets of Pearltrees 1.6 "tree shape" version. These modules 
+With this project we are open-sourcing the assets of Pearltrees 1.6 "tree shape" version. These modules 
 represent a significant part of a 5 years iteration process of our 3 people 
 product and design team.
 
