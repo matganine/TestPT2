@@ -1,10 +1,10 @@
-# Assets Box
+# Tree Shape Visualization Assets Box
 
 ## Presentation
-With this project we are open-sourcing the assets of Pearltrees 1.6 "tree shape" version.
+With this project we are open-sourcing the assets of our 1.6 "tree shape" version.
 
 ## Overview
-This library contains all the assets used in Pearltrees.
+This library contains all the assets used in flash-tree-shape-visualization.
 
 ## Usage
 
