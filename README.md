@@ -1,4 +1,4 @@
-# Flash Assets Box
+# Assets Box
 
 ## Presentation
 Pearltrees is a place to organize all your interests. With this project we are 
