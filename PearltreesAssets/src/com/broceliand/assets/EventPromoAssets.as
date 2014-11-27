@@ -24,8 +24,7 @@ package com.broceliand.assets {
             return serverP + base + "En.png"; 
          }      
       }
-      
-      
+
       public static const DOWNLOAD_IN_APP_BASE:String = "installTheApp";   
       public static const PEARLER_BASE:String = "installPearler";
       public static const SOCIALSYNC_BASE:String = "connect";
@@ -48,8 +47,7 @@ package com.broceliand.assets {
       public static const SOCIALSYNC_PROMO : String = "socialSync";
       public static const PEARL_BY_MAIL_PROMO : String = "pearlMail";   
       public static const UPLOAD_PROMO : String = "upload";   
-      
-      
+
       public static const APPLE_BUTTON     : String = "appleButton";
       public static const ANDROID_BUTTON   : String = "androidButton";
       public static const INVITE_BUTTON    : String = "inviteButton";

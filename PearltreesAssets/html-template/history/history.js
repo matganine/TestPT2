@@ -27,19 +27,14 @@ BrowserHistory = (function() {
 
     var defaultHash = '';
 
-    
     var currentHref = document.location.href;
 
-    
     var initialHref = document.location.href;
 
-    
     var initialHash = document.location.hash;
 
-    
     var historyFrameSourcePrefix = 'history/historyFrame.html?';
 
-    
     var currentHistoryLength = -1;
 
     var historyHash = [];
@@ -51,7 +46,6 @@ BrowserHistory = (function() {
 
     var currentObjectId = null;
 
-    
     var useragent = navigator.userAgent.toLowerCase();
 
     if (useragent.indexOf("opera") != -1) {
@@ -70,7 +64,6 @@ BrowserHistory = (function() {
         window["_ie_firstload"] = false;
     }
 
-    
     function getHistoryFrame()
     {
         return document.getElementById('ie_historyFrame');
@@ -152,16 +145,14 @@ BrowserHistory = (function() {
 
     /* Get the current location hash excluding the '#' symbol. */
     function getHash() {
-       
-       
+
        var idx = document.location.href.indexOf('#');
        return (idx >= 0) ? document.location.href.substr(idx+1) : '';
     }
 
     /* Get the current location hash excluding the '#' symbol. */
     function setHash(hash) {
-       
-       
+
        if (hash == '') hash = '#'
        document.location.hash = hash;
     }
@@ -177,7 +168,6 @@ BrowserHistory = (function() {
      */
     function addHistoryEntry(baseUrl, newUrl, flexAppUrl) {
 
-        
         forwardStack = [];
 
         if (browser.ie) {
@@ -190,14 +180,12 @@ BrowserHistory = (function() {
                 newUrl = baseUrl + '#' + defaultHash;
                 flexAppUrl = defaultHash;
             } else {
-                
-                
+
                 getHistoryFrame().src = historyFrameSourcePrefix + flexAppUrl;
             }
             setHash(flexAppUrl);
         } else {
 
-            
             if (backStack.length == 0 && initialState.flexAppUrl == flexAppUrl) {
                 initialState = createState(baseUrl, newUrl, flexAppUrl);
             } else if(backStack.length > 0 && backStack[backStack.length - 1].flexAppUrl == flexAppUrl) {
@@ -255,7 +243,6 @@ BrowserHistory = (function() {
     }
 
     function handleForwardButton() {
-        
 
         var last = forwardStack.pop();
         if (!last) { return; }
@@ -330,7 +317,6 @@ BrowserHistory = (function() {
                     }
                 }
 
-                
                 if ((bsl >= 2) && (backStack[bsl - 2])) {
                     if (backStack[bsl - 2].flexAppUrl == getHash()) {
                         urlActions.back = true;
@@ -359,7 +345,6 @@ BrowserHistory = (function() {
                     handleArbitraryUrl();
                 }
 
-                
                 currentHref = document.location.href;
                 var flexAppUrl = getHash();
                 if (flexAppUrl == '') {
@@ -449,8 +434,7 @@ BrowserHistory = (function() {
             anchorDiv.id = 'firefox_anchorDiv';
             document.body.appendChild(anchorDiv);
         }
-        
-        
+
     }
 
     return {
@@ -521,8 +505,7 @@ BrowserHistory = (function() {
                 
                 setInterval(checkForUrlChange, 50);
             }
-            
-            
+
             if (browser.firefox || browser.opera)
             {
                 var reg = new RegExp("#" + def + "$");
@@ -604,7 +587,6 @@ function goForwardOrBackInHistory(step)
 {
     history.go(step);
 }
-
 
 (function(i) {
     var u =navigator.userAgent;var e=/*@cc_on!@*/false; 

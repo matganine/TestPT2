@@ -8,8 +8,7 @@ package com.broceliand.assets.pearlWindow.base
       public static const HITS_MEDIUM_GREY:Class;
       [Embed(source='/assets/pearlWindow/base/gauge/greyHitsLow.png')]
       public static const HITS_BIG_GREY:Class; 
-      
-      
+
       [Embed(source='/assets/pearlWindow/base/gauge/greyHitsLowHover.png')]
       public static const HITS_LOW_GREY_HOVER:Class;
       [Embed(source='/assets/pearlWindow/base/gauge/greyHitsLowHover.png')]

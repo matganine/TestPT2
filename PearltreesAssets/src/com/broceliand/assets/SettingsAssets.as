@@ -16,8 +16,7 @@ package com.broceliand.assets
       
       [Embed(source='/assets/settings/invite/yahoo.png')]
       public static const CONTACT_YAHOO:Class;
-      
-      
+
       [Embed(source='/assets/settings/addonIcon.png')]
       public static const ADDON_ICON:Class;      
    }

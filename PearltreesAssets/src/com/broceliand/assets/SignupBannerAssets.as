@@ -23,8 +23,7 @@ package com.broceliand.assets
              scaleGridTop='10', scaleGridBottom='26',
              scaleGridLeft='10', scaleGridRight='20')]
       public static const JOIN_SIGNUP_BANNER_OVER:Class;
-      
-      
+
       [Embed(source='/assets/signupBanner/loginSignupBanner.png',
              scaleGridTop='10', scaleGridBottom='26',
              scaleGridLeft='10', scaleGridRight='18')]
@@ -37,8 +36,7 @@ package com.broceliand.assets
       
       [Embed(source='/assets/signupBanner/transparentDot.png')]
       public static const TRANSPARENT_DOT:Class;
-      
-      
+
    }
    
 }

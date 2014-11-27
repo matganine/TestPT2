@@ -6,8 +6,7 @@ package com.broceliand.assets {
       
       [Embed(source='/assets/teamFeed/iconOver.png')]
       public static const TEAM_FEED_ICON_OVER:Class;
-      
-      
+
       [Embed(source="/assets/teamFeed/buttonShare.png",
                 scaleGridTop='4', scaleGridBottom='17',
                 scaleGridLeft='10', scaleGridRight='11')]
@@ -18,8 +17,7 @@ package com.broceliand.assets {
                 scaleGridTop='4', scaleGridBottom='17',
                 scaleGridLeft='10', scaleGridRight='11')]
       public static const ITEM_SHARE_BUTTON_OVER:Class;
-      
-      
+
       [Embed(source="/assets/teamFeed/close.png")]
       public static const ITEM_CLOSE_BUTTON:Class;
       

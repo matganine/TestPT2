@@ -13,8 +13,7 @@ package com.broceliand.assets {
       
       [Embed(source="/assets/socialSync/connectCheck.png")]
       public static const CHECK:Class;
-      
-      
+
       [Embed(source="/assets/socialSync/connectWhiteTunnel.png", 
                 scaleGridTop='2', scaleGridBottom='28', 
                 scaleGridLeft='10', scaleGridRight='11')]

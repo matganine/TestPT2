@@ -2,8 +2,7 @@ package com.broceliand.assets.pearlWindow.base
 {
    public class PWCheckBoxAssets
    {
-      
-      
+
       [Embed(source='/assets/pearlWindow/base/checkbox/checkbox.png')]
       public static const CHECKBOX:Class;
       [Embed(source='/assets/pearlWindow/base/checkbox/checkboxOver.png')]
@@ -14,8 +13,7 @@ package com.broceliand.assets.pearlWindow.base
       public static const CHECKBOX_SELECTED_OVER:Class;
       [Embed(source='/assets/pearlWindow/base/checkbox/checkboxDisabled.png')]
       public static const CHECKBOX_DISABLED:Class;       
-      
-      
+
       [Embed(source='/assets/pearlWindow/base/checkbox/thinCheckbox.png')]
       public static const CHECKBOX_THIN:Class;
       [Embed(source='/assets/pearlWindow/base/checkbox/thinCheckboxOver.png')]
@@ -28,8 +26,7 @@ package com.broceliand.assets.pearlWindow.base
       public static const CHECKBOX_THIN_DISABLED:Class;
       [Embed(source='/assets/pearlWindow/base/checkbox/thinCheckboxSelectedDisabled.png')]
       public static const CHECKBOX_THIN_SELECTED_DISABLED:Class;
-      
-      
+
       [Embed(source='/assets/pearlWindow/base/checkbox/fatCheckbox.png')]
       public static const CHECKBOX_FAT:Class;
       [Embed(source='/assets/pearlWindow/base/checkbox/fatCheckboxOver.png')]
@@ -40,8 +37,7 @@ package com.broceliand.assets.pearlWindow.base
       public static const CHECKBOX_FAT_SELECTED_OVER:Class;
       [Embed(source='/assets/pearlWindow/base/checkbox/fatCheckbox.png')]
       public static const CHECKBOX_FAT_DISABLED:Class;
-      
-      
+
       [Embed(source='/assets/settings/button/radio/off.png')]
       public static const RADIO_BUTTON_OFF:Class;     
       [Embed(source='/assets/settings/button/radio/on.png')]

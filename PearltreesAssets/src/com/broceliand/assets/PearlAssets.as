@@ -13,8 +13,7 @@ package com.broceliand.assets
       
       [Embed(source="/assets/pearl/tree/distantTreeDeletedForeground@2x.png")]
       public static const DISTANT_REF_DELETED_FOREGROUND:Class;     
-      
-      
+
       [Embed(source="/assets/pearl/tree/distantTreeForegroundOver@2x.png")]
       public static const DISTANT_TREE_FOREGROUND_OVER_PNG:Class;
       
@@ -32,8 +31,7 @@ package com.broceliand.assets
       
       [Embed(source="/assets/pearl/tree/miniAvatarRing.png")]
       public static const MINI_AVATAR_RING_SMALL:Class;
-      
-      
+
       [Embed(source="/assets/pearl/tree/dropzone.png")]
       public static const DROPZONE_SMALL:Class
       

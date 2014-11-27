@@ -10,7 +10,6 @@ Flash Player or to desktops via Adobe AIR.
 
 Learn more about Flex at http://flex.org 
 
-
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -37,7 +36,6 @@ var requiredMinorVersion = ${version_minor};
 
 var requiredRevision = ${version_revision};
 
-
 </script>
 </head>
 
@@ -47,12 +45,10 @@ var requiredRevision = ${version_revision};
 
 var hasProductInstall = DetectFlashVer(6, 0, 65);
 
-
 var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
 
 if ( hasProductInstall && !hasRequestedVersion ) {
-	
-	
+
 	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
 	var MMredirectURL = window.location;
     document.title = document.title.slice(0, 47) + " - Flash Player Installation";
@@ -73,8 +69,7 @@ if ( hasProductInstall && !hasRequestedVersion ) {
 		"pluginspage", "http://www.adobe.com/go/getflashplayer"
 	);
 } else if (hasRequestedVersion) {
-	
-	
+
 	AC_FL_RunContent(
 			"src", "${swf}",
 			"width", "${width}",

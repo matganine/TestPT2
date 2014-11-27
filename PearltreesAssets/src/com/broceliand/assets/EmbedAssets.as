@@ -1,8 +1,7 @@
 package com.broceliand.assets {
    
    public class EmbedAssets {
-      
-      
+
       [Embed(source='/assets/embed/logo.png')]
       public static const LOGO:Class;
       

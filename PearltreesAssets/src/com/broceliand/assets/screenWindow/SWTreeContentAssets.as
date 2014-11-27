@@ -20,12 +20,10 @@ package com.broceliand.assets.screenWindow {
       public static const TEAM:Class;   
       [Embed(source="/assets/screenWindow/treeContent/growTeamOver.png")]
       public static const TEAM_OVER:Class;
-      
-      
+
       [Embed(source="/assets/screenWindow/treeContent/megaDistantTreeArrow.png")]
       public static const MEGA_DISTANT_TREE_ARROW:Class;
-      
-      
+
       [Embed(source="/assets/screenWindow/treeContent/megaTeamPuzzle.png")]
       public static const MEGA_TEAM_PUZZLE:Class;
 
@@ -34,11 +32,9 @@ package com.broceliand.assets.screenWindow {
 
       [Embed(source="/assets/screenWindow/treeContent/megaTeamMaskWhite.png")]
       public static const MEGA_TEAM_MASK_WHITE:Class;
-      
-      
+
       [Embed(source="/assets/screenWindow/treeContent/thumbSquareShadow.png")]
       public static const THUMB_SQUARE_SHADOW:Class;
-      
-      
+
    }
 }

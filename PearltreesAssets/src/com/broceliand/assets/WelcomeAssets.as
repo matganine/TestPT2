@@ -43,8 +43,7 @@ package com.broceliand.assets
       
       public static const DIM_CONNECT:String = SERVER_PATH+"dimToConnect.png";
       public static const DIM_CONNECTING:String = SERVER_PATH+"dimConnecting.png";
-      
-      
+
       [Embed(source='/assets/welcome/video/pause.png')]
       public static const VIDEO_PAUSE:Class;
       
@@ -62,8 +61,7 @@ package com.broceliand.assets
       
       [Embed(source='/assets/welcome/video/playOver.png')]
       public static const VIDEO_PLAY_OVER:Class;
-      
-      
+
       [Embed(source='/assets/welcome/extServices/facebook.png',
              scaleGridTop='5', scaleGridBottom='13',
              scaleGridLeft='29', scaleGridRight='30')]

@@ -123,8 +123,7 @@ package com.broceliand.assets.screenWindow
       public static const TEXT_LAYOUT_HOVER:Class;
       [Embed(source="/assets/screenWindow/scrapEdition/textLayoutOnHover.png")]
       public static const TEXT_LAYOUT_ON_HOVER:Class;
-      
-      
+
       [Embed(source="/assets/screenWindow/scrapEdition/pasteImage.png")]
       public static const PASTE_IMAGE:Class;
       [Embed(source="/assets/screenWindow/scrapEdition/pasteImageHover.png")]

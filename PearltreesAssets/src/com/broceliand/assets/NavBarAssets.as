@@ -2,32 +2,25 @@ package com.broceliand.assets
 {
    public class NavBarAssets
    {  
-      
-      
+
       [Embed(source="/assets/navbar/logoAnonymous.png")]
       public static const LOGO_ANONYMOUS:Class;
-      
-      
+
       [Embed(source="/assets/navbar/logoAnonymousOver.png")]
       public static const LOGO_ANONYMOUS_OVER:Class;
-      
-      
+
       [Embed(source="/assets/navbar/logoWithoutPearltrees.png")]
       public static const LOGO_WITHOUT_PEARLTREES:Class;
-      
-      
+
       [Embed(source="/assets/navbar/logoWithoutPearltreesHover.png")]
       public static const LOGO_WITHOUT_PEARLTREES_HOVER:Class;
-      
-      
+
       [Embed(source="/assets/navbar/avatar.png")]
       public static const AVATAR_MASK:Class;
-      
-      
+
       [Embed(source="/assets/navbar/avatarOver.png")]
       public static const AVATAR_MASK_OVER:Class;
-      
-      
+
       [Embed(source="/assets/navbar/coeditPuzzlePrivateNavbar.png")]
       public static const TEAM_PUZZLE_PRIVATE:Class;
       
@@ -39,38 +32,31 @@ package com.broceliand.assets
       
       [Embed(source="/assets/navbar/coeditPuzzleNavbarHover.png")]
       public static const TEAM_PUZZLE_OVER:Class;
-      
-      
+
       [Embed(source="/assets/navbar/buttonDiscoverGrey.png")]
       public static const ITEM_DISCOVER_GREY:Class;
-      
-      
+
       [Embed(source="/assets/navbar/buttonDiscoverCyan.png")]
       public static const ITEM_DISCOVER_CYAN:Class;
-      
-      
+
       [Embed(source="/assets/navbar/buttonDiscoverCyanHover.png")]
       public static const ITEM_DISCOVER_CYAN_HOVER:Class;
-      
-      
+
       [Embed(source="/assets/navbar/buttonHomeHover.png", 
                 scaleGridTop='22', scaleGridBottom='23', 
                 scaleGridLeft='20', scaleGridRight='22')]
       public static const ITEM_HOME_OVER:Class;
-      
-      
+
       [Embed(source="/assets/navbar/buttonHome.png", 
                 scaleGridTop='22', scaleGridBottom='23', 
                 scaleGridLeft='20', scaleGridRight='22')]
       public static const ITEM_HOME:Class;
-      
-      
+
       [Embed(source="/assets/navbar/backButtonHover.png", 
                 scaleGridTop='22', scaleGridBottom='23', 
                 scaleGridLeft='20', scaleGridRight='22')]
       public static const ITEM_BACK_OVER:Class;
-      
-      
+
       [Embed(source="/assets/navbar/backButton.png", 
                 scaleGridTop='22', scaleGridBottom='23', 
                 scaleGridLeft='20', scaleGridRight='22')]
@@ -85,15 +71,13 @@ package com.broceliand.assets
       public static const PEARL_PICK:Class;      
       [Embed(source='/assets/navbar/buttonPickPearlHover.png')]
       public static const PEARL_PICK_HOVER:Class;      
-      
-      
+
       [Embed(source="/assets/navbar/settings.png")]
       public static const SETTINGS:Class;        
       
       [Embed(source="/assets/navbar/settingsHover.png")]
       public static const SETTINGS_OVER:Class;
-      
-      
+
       [Embed(source="/assets/navbar/help.png")]
       public static const HELP:Class;        
       
@@ -123,12 +107,10 @@ package com.broceliand.assets
       
       [Embed(source="/assets/navbar/searchMagnifier.png")]
       public static const SEARCH_MAGNIFIER:Class;       
-      
-      
+
       [Embed(source='/assets/navbar/settings.png')]
       public static const SETTINGS_ICON:Class;
-      
-      
+
       [Embed(source='/assets/navbar/settingsHover.png')]
       public static const SETTINGS_ICON_OVER:Class;
       

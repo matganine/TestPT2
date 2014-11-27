@@ -10,8 +10,7 @@ package com.broceliand.assets
       public static const AVATAR_TEAM_LOGO_VERYSMALL:Class; 
       
       public static const PAUL_SMALLSQUARE:String = "images/avatar/default/smallsquarePaul.png";
-      
-      
+
       [Embed(source='/assets/avatar/novelties/aliasArrowNews.png')]
       public static const BIG_ARROW_FOR_NOVELTIES:Class;
       [Embed(source='/assets/avatar/novelties/smallAliasNews.png')]
