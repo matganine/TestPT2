@@ -16,9 +16,7 @@ package com.broceliand.assets.pearlWindow {
       
       [Embed(source="/assets/pearlWindow/treeContent/profileOver.png")]
       public static const PROFILE_OVER:Class;
-      
-      
-      
+
       [Embed(source='/assets/pearlWindow/treeContent/freeze.png')]
       public static const FREEZE:Class;
       [Embed(source='/assets/pearlWindow/treeContent/freezeOver.png')]

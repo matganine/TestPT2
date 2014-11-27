@@ -75,9 +75,7 @@ package com.broceliand.assets
                 scaleGridTop='22', scaleGridBottom='23', 
                 scaleGridLeft='20', scaleGridRight='22')]
       public static const ITEM_BACK:Class;
-      
-      
-      
+
       [Embed(source='/assets/navbar/buttonAddPearlsCyan.png')]
       public static const PEARL_ADD:Class;      
       [Embed(source='/assets/navbar/buttonAddPearlsCyanHover.png')]

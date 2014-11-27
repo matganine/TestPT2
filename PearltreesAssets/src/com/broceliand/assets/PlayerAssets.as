@@ -78,10 +78,7 @@ package com.broceliand.assets
       public static const NEW_TAB:Class;
       [Embed(source="/assets/player/newTabOver.png")]
       public static const NEW_TAB_OVER:Class;  
-      
-      
-      
-      
+
       public static const OVERLAY_PEARLTREES:String = SERVER_PATH+"overlay/pearltrees.png";
       public static const OVERLAY_PEARLTREES_OVER:String = SERVER_PATH+"overlay/pearltreesOver.png";
       

@@ -37,9 +37,7 @@ package com.broceliand.assets {
       public static const ARCHIVE_BASE:String = "archive";
       public static const PRO_BASE:String = "premiumPro";
       public static const UPLOAD_BASE:String = "upload";
-      
-      
-      
+
       public static const EVERYWHERE_PROMO : String = "everywhere";
       public static const INVITE_PROMO     : String = "invite";
       public static const ARCHIVE_PROMO    : String = "archive";   

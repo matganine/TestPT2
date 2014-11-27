@@ -28,22 +28,10 @@ package com.broceliand.assets.screenWindow {
       
       [Embed(source="/assets/screenWindow/treeContent/megaTeamPuzzle.png")]
       public static const MEGA_TEAM_PUZZLE:Class;
-      
-      
-      
-      
-      
-      
+
       [Embed(source="/assets/screenWindow/treeContent/decoPrivatePuzzle.png")]
       public static const TEAM_PRIVATE_MEMBER:Class;
-      
-      
-      
-      
-      
-      
-      
-      
+
       [Embed(source="/assets/screenWindow/treeContent/megaTeamMaskWhite.png")]
       public static const MEGA_TEAM_MASK_WHITE:Class;
       

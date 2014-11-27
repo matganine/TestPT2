@@ -74,9 +74,7 @@ package com.broceliand.assets
       
       [Embed(source="/assets/pearl/pearlButtons/openTreeOver@2x.png")]
       public static const OPEN_TREE_BUTTON_OVER:Class;
-      
-      
-      
+
       [Embed(source="/assets/pearl/tree/endPearlSelected@2x.png")]
       public static const END_PEARL_SELECTED_BUTTON:Class;
       

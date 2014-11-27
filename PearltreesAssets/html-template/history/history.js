@@ -25,14 +25,6 @@ BrowserHistory = (function() {
         version: -1
     };
 
-    
-    
-    
-
-    
-    
-
-    
     var defaultHash = '';
 
     
@@ -99,8 +91,6 @@ BrowserHistory = (function() {
         return document.getElementById("safari_remember_field");
     }
 
-    
-    
     function getPlayer(id) {
 		if (id && document.getElementById(id)) {
 			var r = document.getElementById(id);
@@ -191,9 +181,7 @@ BrowserHistory = (function() {
         forwardStack = [];
 
         if (browser.ie) {
-            
-            
-            
+
             if (flexAppUrl == defaultHash && document.location.href == initialHref && window['_ie_firstload']) {
                 currentHref = initialHref;
                 return;
@@ -284,12 +272,7 @@ BrowserHistory = (function() {
 
         if (browser.ie) {
             if (currentHref != document.location.href && currentHref + '#' != document.location.href) {
-                
-                
-                
-                
-                
-                
+
                 if (browser.version < 7) {
                     currentHref = document.location.href;
                     document.location.reload();
@@ -306,10 +289,7 @@ BrowserHistory = (function() {
         if (browser.safari) {
             
             if (currentHistoryLength >= 0 && history.length != currentHistoryLength) {
-                
-                
-                
-                
+
                 currentHistoryLength = history.length;
                 var flexAppUrl = historyHash[currentHistoryLength];
                 if (flexAppUrl == '') {
@@ -339,14 +319,10 @@ BrowserHistory = (function() {
 
                 if ((window.location.hash == initialHash || window.location.href == initialHref) && (bsl == 1)) {
                     urlActions.back = true;
-                    
-                    
-                    
+
                     handleBackButton();
                 }
-                
-                
-                
+
                 if (forwardStack.length > 0) {
                     if (forwardStack[forwardStack.length-1].flexAppUrl == getHash()) {
                         urlActions.forward = true;
@@ -515,9 +491,7 @@ BrowserHistory = (function() {
         {
             defaultHash = def;
             def = getHash();
-            
-            
-            
+
             if (browser.ie)
             {
                 window['_ie_firstload'] = true;
@@ -570,10 +544,6 @@ BrowserHistory = (function() {
             if (browser.ie && typeof objectId != "undefined") {
                 currentObjectId = objectId;
             }
-           
-           
-           
-           
 
            var pos = document.location.href.indexOf('#');
            var baseUrl = pos != -1 ? document.location.href.substr(0, pos) : document.location.href;
@@ -614,10 +584,6 @@ BrowserHistory = (function() {
     }
 
 })();
-
-
-
-
 
 function setURL(url)
 {
