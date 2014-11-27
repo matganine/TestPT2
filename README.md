@@ -1,4 +1,4 @@
-# PearltreesAssets
+# Flash Assets Box
 
 ## Presentation
 Pearltrees is a place to organize all your interests. With this project we are 
@@ -7,7 +7,7 @@ represent a significant part of a 5 years iteration process of our 3 people
 product and design team.
 
 ## Overview
-This library contains all the assets and fonts used in Pearltrees.
+This library contains all the assets used in Pearltrees.
 
 ## Usage
 
