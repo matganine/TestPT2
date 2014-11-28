@@ -1,10 +1,10 @@
 # Tree Shape Visualization Assets Box
 
 ## Presentation
-With this project we are open-sourcing the assets of our 1.6 "tree shape" version.
+With this project we open-source the assets of our 1.6 "tree shape" version.
 
 ## Overview
-This library contains all the assets used in flash-tree-shape-visualization.
+This library contains all the assets used in tree-shape-visualization.
 
 ## Usage
 
